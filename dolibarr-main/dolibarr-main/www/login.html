@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/login.css">
+        <title>Doli App</title>
+    </head>
+    <body>
+        
+            
+<div class="app">
+            <h1 class="titre">Dolibarr</h1>
+        </div>
+        <div id="container">
+        <form class="Formulaire">
+            <input type="text" placeholder="Entrez l'IP" class="IP" id="IP" required>
+            <br>
+            <input type="text" placeholder="Entrez votre Identifiant" class="Identifiant" id="name" required>
+            <br>
+            <input type="password" placeholder="Entrez votre mot de passe" class="pass" id="pass" required>
+            <h2 id="error"></h2>
+            <br>
+            <input type="button" onclick="log()" value="Se connecter" class="confirm">
+        </form>
+        </div>
+        
+
+        <script src="js/login.js"></script>
+    </body>
+</html>

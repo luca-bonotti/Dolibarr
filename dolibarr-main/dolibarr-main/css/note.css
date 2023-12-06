@@ -1,0 +1,127 @@
+
+
+
+body {
+
+    background-color:#E4E4E4;
+    background-image:linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+    font-size:12px;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   display: block;
+    margin-left: auto;
+    margin-right: auto
+
+    
+}
+
+.app {
+   top: 0;
+    border-radius: 25%;
+   background-color: rgb(37, 37, 37);
+   color: aliceblue;
+   position:absolute;            
+   left:50%;
+   height:70px;       
+   display: flex;
+    justify-content: center;
+    align-items: center;          
+   width:225px;              
+   text-align:center;
+   padding:112px 0px 0px 0px;     
+   margin:-115px 0px 0px -112px;  
+                                  
+}
+
+
+.Formulaire{
+    padding:180px 0px 0px 0px;
+    text-align: center;
+    height: 100%; 
+}
+
+
+#dateStart{
+    
+    border-radius: 3px;
+    border-style: none;
+    font-family: system-ui;
+    height: 3vh;
+    width: 23vh;
+}
+
+#dateEnd{
+    font-family: system-ui;
+    border-radius: 3px;
+    border-style: none;
+    height: 3vh;
+    width: 23vh;
+}
+
+#desc{
+    font-family: system-ui;
+    border-radius: 3px;
+    border-style: none;
+    height: 3vh;
+    width: 23vh;
+}
+
+#prix{
+    font-family: system-ui;
+    border-style: none;
+    border-radius: 3px;
+    height: 3vh;
+    width:23vh;
+}
+
+.confirm{
+    position:absolute;
+    bottom:0;
+    height: 10vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: system-ui;
+    padding: 10px 120px;
+    border-radius: 5px;
+    border-style:groove;
+    border-width: 1px;
+    background-color: black;
+    color: #E4E4E4;
+}
+
+.confirm:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+.confirm:active{
+    background-color: #7a7a7a;
+}
+
+#imgnote{
+width: 100px;
+height: 100px;
+
+}
+
+#test {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
